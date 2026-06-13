@@ -1,20 +1,38 @@
-AaravyOTH 
+VR is real and the industry will take off in like 3 years trust
 
-Game Development, Computer Science, Math
+Cars r cool (3rd Gen NC Miata 🩷)
 
-# Public Repos
-## Programming
+Everyone should be driving self driving cars or miatas no inbetween
 
-### Websites
-- <a href="https://github.com/AaravyOTH/AaravyOTH.github.io" target="_blank">Portfolio: https://aaravyoth.github.io/</a>
-- <a href="https://github.com/AaravyOTH/origamiclub" target="_blank">RU Origami Club Website</a>
+neovim arch user cause i like pacman -Syu and for aura farming purposes
 
-### Programming
-- <a href="https://github.com/AaravyOTH/CNumberSystemConverter" target="_blank">Number System Converter in C</a>
+---
+nerd stuff:  
 
-### Android Studios (Java)
-- <a href="https://github.com/AaravyOTH/CookieClicker" target="_blank">Cookie Clicker Game</a>
-- <a href="https://github.com/AaravyOTH/HyruleCompendium" target="_blank">Hyrule Compendium</a>
-- <a href="https://github.com/AaravyOTH/WeatherProject" target="_blank">Weather App in Android</a>
+### Focus: Spatial Computing, Embedded Inference, Real-Time Rendering Pipelines, & Robotics State Estimation. ###
 
-<a href="https://github.com/tomondre"><img src="contributions.svg"></a>
+---
+
+## 🛠️ Repositories & Active Infrastructure
+
+### 🚀 Spatial Computing & Computer Vision
+* **[Sim-to-Real BEV Perception Engine](https://github.com/ayadav348/spatial-bev-pipeline)** (C++, Eigen3, OpenCV, PyTorch)
+    * *Result:* Dropped vehicle tracking latency from 425.5ms to 3.22ms (**132x execution speedup**) using boot-time memory-mapped Look-Up Tables (LUTs) for Inverse Perspective Mapping.
+    * *State Estimation:* Implemented a heap-allocation-free 4D Kalman Filter from scratch to maintain dynamic object tracking tracking trajectories through 500ms sensor occlusions.
+* **[Spatial 3D Scene Discovery & Volumetric Retrieval Engine](https://github.com/ayadav348/VR-WhiteBoard)** (Python, FastAPI, PostgreSQL, pgvector, Ollama)
+    * *Mechanism:* Serializes time-series 3D bounding box dimensions, camera extrinsics $[R|t]$, and ego-vehicle telemetry into a Spatial RAG architecture.
+    * *Performance:* Indexes large-scale datasets (nuScenes/Waymo) via `pgvector` cosine distance metrics to achieve sub-5ms lookup speeds for automated state-space simulation initialization.
+
+### 🎮 Graphics, Rendering & Extended Reality
+* **[Shader Optimized Driving Simulator](https://github.com/ayadav348/drivingsim)** (Godot, GLSL)
+    * Procedural driving simulator executing a custom programmable GLSL vertex/fragment distortion shader pipeline to simulate high-velocity peripheral motion cues, reducing graphics memory load by 50%.
+
+### 🌐 System Infrastructure & Web Assets
+* **[RU Origami Club Core Platform](https://github.com/ayadav348/origamiclub)** (HTML, Tailwind CSS, JavaScript)
+    * Production deployment and DNS routing via Vercel for event coordination metrics.
+
+---
+
+<p align="left">
+  <img src="contributions.svg" alt="Git Activity Metrics Pipeline" />
+</p>
