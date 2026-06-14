@@ -27,6 +27,11 @@ nerd stuff:
 * **[Shader Optimized Driving Simulator](https://github.com/ayadav348/drivingsim)** (Godot, GLSL)
     * Procedural driving simulator executing a custom programmable GLSL vertex/fragment distortion shader pipeline to simulate high-velocity peripheral motion cues, reducing graphics memory load by 50%.
 
+### 📟 System Telemetry & Tooling
+* **[git-vector](https://github.com/ayadav348/git-vector)** (Node.js, Asynchronous Event Loops) | **[Available on npm](https://www.npmjs.com/package/git-vector)**
+    * *Architecture:* A low-latency multi-repository CLI telemetry and drift analysis engine that models localized workspace structures as coordinate fields to calculate directional ahead/behind state deltas.
+    * *Concurrency:* Leverages parallel sub-process threads to fetch multi-repo status markers simultaneously, integrating process-level environment variables (`GIT_TERMINAL_PROMPT=0`) to isolate and suppress interactive authentication blocks cleanly.
+
 ### 🌐 System Infrastructure & Web Assets
 * **[RU Origami Club Core Platform](https://github.com/ayadav348/origamiclub)** (HTML, Tailwind CSS, JavaScript)
     * Production deployment and DNS routing via Vercel for event coordination metrics.
