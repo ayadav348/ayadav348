@@ -19,13 +19,15 @@ nerd stuff:
 * **[Sim-to-Real BEV Perception Engine](https://github.com/ayadav348/spatial-bev-pipeline)** (C++, Eigen3, OpenCV, PyTorch)
     * *Result:* Dropped vehicle tracking latency from 425.5ms to 3.22ms (**132x execution speedup**) using boot-time memory-mapped Look-Up Tables (LUTs) for Inverse Perspective Mapping.
     * *State Estimation:* Implemented a heap-allocation-free 4D Kalman Filter from scratch to maintain dynamic object tracking tracking trajectories through 500ms sensor occlusions.
-* **[Spatial 3D Scene Discovery & Volumetric Retrieval Engine](https://github.com/ayadav348/VR-WhiteBoard)** (Python, FastAPI, PostgreSQL, pgvector, Ollama)
+* **[Spatial 3D Scene Discovery & Volumetric Retrieval Engine](https://github.com/ayadav348/spatial-telemetry-engine)** (Python, FastAPI, PostgreSQL, pgvector, Ollama)
     * *Mechanism:* Serializes time-series 3D bounding box dimensions, camera extrinsics $[R|t]$, and ego-vehicle telemetry into a Spatial RAG architecture.
     * *Performance:* Indexes large-scale datasets (nuScenes/Waymo) via `pgvector` cosine distance metrics to achieve sub-5ms lookup speeds for automated state-space simulation initialization.
 
 ### 🎮 Graphics, Rendering & Extended Reality
 * **[Shader Optimized Driving Simulator](https://github.com/ayadav348/drivingsim)** (Godot, GLSL)
     * Procedural driving simulator executing a custom programmable GLSL vertex/fragment distortion shader pipeline to simulate high-velocity peripheral motion cues, reducing graphics memory load by 50%.
+* **[VR Whiteboard](https://github.com/ayadav348/VR-Whiteboard)** (VR, Unity, C#, Oculus, OpenXR, Azure, DevOps)
+    * VR drawing and notetaking app with real-time pixel interpolation algorithm for line smoothing in an immersive VR drawing application, deployed across standalone XR headsets via OpenXR tracking extensions.
 
 ### 📟 System Telemetry & Tooling
 * **[git-vector](https://github.com/ayadav348/git-vector)** (Node.js, Asynchronous Event Loops) | **[Available on npm](https://www.npmjs.com/package/git-vector)**
